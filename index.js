@@ -33,7 +33,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: https://chatz-mk.herokuapp.com/,
+    origin: true,
     credentials: true,
   },
 });
