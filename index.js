@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname + "/public")))
 
 mongoose
   .connect(process.env.MONGO_URL, {
-    useNewUrlParser: https://chatz-mk.herokuapp.com/,
+    useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => {
@@ -33,7 +33,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: true,
+    origin: https://chatz-mk.herokuapp.com/,
     credentials: true,
   },
 });
