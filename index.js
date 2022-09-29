@@ -14,8 +14,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname + "/public")))
 
 mongoose
-  .connect('mongodb+srv://Mohitk:59fp3DB2nKsZ1I1n@cluster0.kac6jzs.mongodb.net/
-?retryWrites=true', {
+  .connect('mongodb+srv://Mohitk:59fp3DB2nKsZ1I1n@cluster0.kac6jzs.mongodb.net/?retryWrites=true', 
+  {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
