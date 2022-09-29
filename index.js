@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname + "/public")))
 
 mongoose
   .connect(process.env.MONGO_URL, {
-    useNewUrlParser: https://http://chatz-mk.herokuapp.com/,
+    useNewUrlParser: https://chatz-mk.herokuapp.com/,
     useUnifiedTopology: true,
   })
   .then(() => {
